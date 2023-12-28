@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,400&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Nav section -->
+    <header>
+        <h1>NewsHub</h1>
+        <div class="input ">
+            <form id="search-form">
+
+                <input type="text" placeholder="Search News" id="search-input">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            </form>
+
+        </div>
+         
+       
+        <nav class="pc">
+            <ul>
+                <li onclick="search('Technology')">Technology <i class="fa-solid fa-microchip"></i></li>
+                <li onclick="search('Finance')">Finance <i class="fa-brands fa-bitcoin"></i></li>
+                <li onclick="search('Health')">Health <i class="fa-solid fa-briefcase-medical"></i></li>
+                <li onclick="search('Food')">Food <i class="fa-solid fa-burger"></i></li>
+
+            </ul>
+        </nav>
+
+        <!-- For Mobile -->
+
+        <div class="menu-option">
+            <i class="fa-solid fa-bars"></i>
+
+
+        </div> 
+        
+
+        <div class="mob hidden">
+             
+            <nav>
+                <ul>
+                    <li onclick="search('Technology')">Technology <i class="fa-solid fa-microchip"></i></li>
+                    <li onclick="search('Finance')">Finance <i class="fa-brands fa-bitcoin"></i></li>
+                    <li onclick="search('Health')">Health <i class="fa-solid fa-briefcase-medical"></i></li>
+                    <li onclick="search('Food')">Food <i class="fa-solid fa-burger"></i></li>
+                   
+                    
+                    
+                </ul>
+            </nav>
+        </div>
+
+
+    </header>
+
+    <!--  Main Section -->
+    <main>
+        <!-- Through javascript -->
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
